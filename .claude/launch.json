@@ -1,0 +1,17 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+        {
+            "name": "talkexcel",
+            "runtimeExecutable": "cmd",
+            "runtimeArgs": ["/c", "cd /d C:\\Users\\Utente\\TalkExcel && php artisan serve --port=8000"],
+            "port": 8000
+        },
+        {
+            "name": "livewire",
+            "runtimeExecutable": "cmd",
+            "runtimeArgs": ["/c", "cd /d C:\\Users\\Utente\\livewire && composer run dev"],
+            "port": 8000
+        }
+    ]
+}
